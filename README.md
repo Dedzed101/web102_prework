@@ -34,7 +34,7 @@ GIF created with LiceCap
 
 ## Notes
 
-For the most part the explanations were helpful. I had to google some extra examples of how to use the various functions, like filter ance reduce, and therre were some syntactical things I needed to investigate when playing around with flexbox but for the most part the prework was doable and fun.
+For the most part the explanations were helpful. I had to google some extra examples of how to use the various functions, like filter and reduce, and there were some syntactical things I needed to investigate when playing around with flexbox but for the most part the prework was doable and fun.
 
 ## License
 
