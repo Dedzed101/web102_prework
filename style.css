@@ -19,17 +19,26 @@ body {
     margin-top: -10px;
 }
 
-.stats-container {
+.stats-container{
     display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 30px lightblue; */
+    
 }
 
+
 .stats-card {
+    cursor: pointer;
     background-color: #a8b0bc;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+.stats-card:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -39,7 +48,8 @@ body {
 #games-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* height: 500px; */
 }
 
 .game-img {
@@ -52,7 +62,7 @@ body {
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border-radius: 7px;
 }
